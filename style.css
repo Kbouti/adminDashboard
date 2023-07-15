@@ -1,0 +1,25 @@
+#mainContain {
+    display:grid;
+    grid-template:100px 1fr / 250px 1fr;
+    grid-template-areas: 
+    "sideBar topBar"
+    "sidebar content";
+
+}
+
+#sideBar{   
+    background-color: aqua;
+    grid-area: "sideBar";
+}
+
+#topBar{   
+    background-color:gray;
+    grid-area: "topBar";
+
+}
+
+#content{   
+    background-color:white;
+    grid-area: "content";
+
+}
