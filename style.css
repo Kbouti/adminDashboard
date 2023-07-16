@@ -19,6 +19,16 @@
     grid-area: 1 / 1 / 3 / 2;
 }
 
+#dashBoard {
+    display:flex;
+    flex-direction:column;
+}
+
+#dashBoard > div {
+    margin: 10px;
+    color: #FFFFFF;
+}
+
 #topBar{   
     background-color:#FFFFFF;
 
