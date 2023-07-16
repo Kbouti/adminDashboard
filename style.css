@@ -71,7 +71,26 @@
     border-left:solid #F0B329 10px
 }
 
+#trendingCard{
+    background-color:white;
+    border-radius:10px;
+}
+
+#announcements{
+    background-color:white;
+    border-radius:10px;
+
+}
 .title, .cardTitle{
     font-size: 18px;
     font-weight:bold;
+}
+
+.cardContent, .announcementContent, .trendingItem {
+    color: #636363;
+
+}
+
+.trendingItem .name {
+    color:black;
 }
