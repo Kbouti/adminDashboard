@@ -31,7 +31,15 @@
 
 #topBar{   
     background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+}
 
+#topBar > div {
+}
+.topFlexBar{
+    display:flex;
+    flex-direction:row;
 }
 
 #content{   
