@@ -37,3 +37,12 @@
 #content{   
     background-color:#E2E8F0;
 }
+
+
+.blueRound{
+    border-radius: 15px;
+    padding:5px 8px;
+    background-color:#1992D3;
+    color:white;
+    border:none;
+}
