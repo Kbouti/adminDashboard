@@ -74,11 +74,15 @@
 #trendingCard{
     background-color:white;
     border-radius:10px;
+    padding:20px;
+
 }
 
 #announcements{
     background-color:white;
     border-radius:10px;
+    padding:20px;
+
 
 }
 .title, .cardTitle{
