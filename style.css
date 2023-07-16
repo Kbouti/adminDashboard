@@ -57,3 +57,21 @@
     color:white;
     border:none;
 }
+
+#cardContainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;]
+}
+
+.card{
+    background-color:white;
+    border-radius:10px;
+    padding:20px;
+    border-left:solid #F0B329 10px
+}
+
+.title, .cardTitle{
+    font-size: 18px;
+    font-weight:bold;
+}
