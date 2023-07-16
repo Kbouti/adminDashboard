@@ -35,8 +35,6 @@
     flex-direction:column;
 }
 
-#topBar > div {
-}
 .topFlexBar{
     display:flex;
     flex-direction:row;
@@ -44,8 +42,13 @@
 
 #content{   
     background-color:#E2E8F0;
+    display:grid;
+    grid-template-columns:3fr 1fr;
 }
 
+#trending{
+    grid-column-start:2;
+}
 
 .blueRound{
     border-radius: 15px;
