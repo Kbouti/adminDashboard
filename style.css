@@ -43,6 +43,16 @@
     background-color:#E2E8F0;
     display:grid;
     grid-template-columns:3fr 1fr;
+    /* grid-gap:15px; */
+    /* consider adding margin to individual elements instead */
+}
+
+#content div {
+    /* margin:10px; */
+}
+
+.contentTitle{
+    margin:16px 10px 10px 12px;;
 }
 
 #trending{
@@ -60,7 +70,7 @@
 #cardContainer {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:10px;]
+    grid-gap:15px;
 }
 
 .card{
