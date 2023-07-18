@@ -47,12 +47,12 @@
     /* consider adding margin to individual elements instead */
 }
 
-#content div {
-    /* margin:10px; */
+.contentSection{
+    margin:12px
 }
 
 .contentTitle{
-    margin:16px 10px 10px 12px;;
+    margin:16px 0px 12px 0px;
 }
 
 #trending{
