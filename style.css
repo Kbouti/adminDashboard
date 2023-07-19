@@ -35,7 +35,7 @@
     min-height: 130px;
 }
 
-.dashTop > div{
+.dash > div{
     display:flex;
     flex-direction:row;
 }
