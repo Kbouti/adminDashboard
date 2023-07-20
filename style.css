@@ -1,17 +1,15 @@
+* {
+    padding:0%;
+    margin:0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 #mainContain {
     display:grid;
     grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr 4fr;
     height:100vh;
-
-
-    /* shorthand:   grid-template: 1fr 4fr / 1fr 4fr; */
 }
-
-* {
-    padding:0%;
-    margin:0%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 #sideBar{   
     background-color: #1992D3;
@@ -57,8 +55,12 @@
     background-color:#E2E8F0;
     display:grid;
     grid-template-columns:3fr 1fr;
-    /* grid-gap:15px; */
-    /* consider adding margin to individual elements instead */
+    grid-template-rows: 1.3fr 1fr;
+}
+
+#projects{
+    grid-row-start: 1;
+    grid-row-end:3;
 }
 
 .contentSection{
