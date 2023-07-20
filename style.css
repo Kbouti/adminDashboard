@@ -35,6 +35,10 @@
     min-height: 130px;
 }
 
+#topBar > div {
+    flex-grow:1;
+}
+
 .dash > div{
     display:flex;
     flex-direction:row;
