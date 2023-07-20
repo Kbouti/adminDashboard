@@ -74,14 +74,14 @@
 }
 
 .blueRound{
-    border-radius: 15px;
-    padding:10px 18px;
     background-color:#1992D3;
-    color:white;
+    border-radius: 15px;
     border:none;
+    color:white;
     font-size: 12px;
     font-weight:bold;
     margin:16px;
+    padding:10px 18px;
 }
 
 #cardContainer {
