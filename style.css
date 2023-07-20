@@ -100,6 +100,11 @@
     height: clamp(100px, 150px, 200px);
 }
 
+.cardButtons {
+    display:flex;
+    justify-content: flex-end;
+}
+
 #trendingCard{
     background-color:white;
     border-radius:10px;
@@ -113,7 +118,8 @@
 }
 
 .announcementContent{
-    overflow:auto;
+    /* text-overflow:ellipsis;
+    overflow:hidden; */
 }
 
 .title, .cardTitle{
