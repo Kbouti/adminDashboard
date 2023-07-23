@@ -51,6 +51,16 @@
     flex-direction:row;
 }
 
+.dashTitle {
+    display:flex;
+    align-items:center; 
+}
+
+.dashTitle > i {
+    margin-right:8px;
+    font-size:40px;
+}
+
 .topSection{
     display:flex;
     flex-direction:row;
