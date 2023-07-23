@@ -55,7 +55,9 @@
     display:flex;
     flex-direction:row;
     align-items:center;
+    margin: 0px 16px;
 }
+
 #bottomFlexBar{
     justify-content:space-between;
 }
@@ -65,7 +67,7 @@
 }
 
 #bottomFlexBar img {
-    margin: 0 8px
+    margin-right: 8px
 }
 
 #content{   
@@ -73,7 +75,7 @@
     display:grid;
     grid-template-columns:3fr 1fr;
     grid-template-rows: 1.3fr 1fr;
-}
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.2);}
 
 #projects{
     grid-row-start: 1;
@@ -126,8 +128,7 @@
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-
-}
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);}
 
 .card > .cardButtons {
     display:flex;
