@@ -63,6 +63,13 @@
     grid-row-end:3;
 }
 
+.profilePic {
+    height:40px;
+    width:40px;
+    border-radius:50%
+    
+}
+
 .contentSection{
     margin:12px
 }
