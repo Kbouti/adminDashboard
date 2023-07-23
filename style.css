@@ -98,10 +98,15 @@
     padding:20px;
     border-left:solid #F0B329 10px;
     height: clamp(100px, 150px, 200px);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
 }
 
-.cardButtons {
+.card > .cardButtons {
     display:flex;
+    /* justify-self:flex-end; */
     justify-content: flex-end;
 }
 
