@@ -35,6 +35,15 @@
 
 #topBar > div {
     flex-grow:1;
+    font-size: 16px;
+    font-weight:550;
+
+}
+
+#greeting2 {
+    font-size:20px;
+    font-weight:bold;
+
 }
 
 .dash > div{
@@ -49,6 +58,14 @@
 }
 #bottomFlexBar{
     justify-content:space-between;
+}
+
+#bottomFlexBar > div {
+    display:flex;
+}
+
+#bottomFlexBar img {
+    margin: 0 8px
 }
 
 #content{   
@@ -80,6 +97,7 @@
 
 #trending{
     grid-column-start:2;
+    min-width: 220px;
 }
 
 .blueRound{
@@ -136,7 +154,7 @@
 
 .title, .cardTitle{
     font-size: 18px;
-    font-weight:bold;
+    font-weight:550;
 }
 
 .cardContent, .announcementContent, .trendingItem {
