@@ -154,6 +154,12 @@
     border-radius:50%;
 }
 
+.trendingItem{
+    display:flex;
+    flex-direction:row;
+    gap:8px;
+}
+
 #searchBar {
     background-color:#E2E8F0;
     border:none;
