@@ -148,6 +148,12 @@
     color:black;
 }
 
+.trendingItem > img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+
 #searchBar {
     background-color:#E2E8F0;
     border:none;
