@@ -83,6 +83,19 @@
     display:flex;
 }
 
+#topFlexBar > img{
+    margin: 0px 8px;
+}
+
+#topFlexBar > i{
+    margin: 0px 8px;
+}
+
+#topFlexBar > div{
+    margin: 0px 8px;
+}
+
+
 #bottomFlexBar{
     justify-content:space-between;
 }
